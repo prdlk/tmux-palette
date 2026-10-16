@@ -1,8 +1,8 @@
 {
-  "bg": "#16181a",
-  "panel": "#1e2124",
-  "selected": "#243348",
-  "fg": "#ffffff",
-  "muted": "#7b8496",
-  "accent": "#5ea1ff"
+  "bg": "#222120",
+  "panel": "#2e2c2b",
+  "selected": "#453130",
+  "fg": "#dcc1b7",
+  "muted": "#a6958f",
+  "accent": "#cf716f"
 }
