@@ -112,13 +112,12 @@
   },
   {
     "icon": "󱂬",
-    "title": "Sessions (sessionx)",
-    "description": "fuzzy switch, create, rename, kill",
+    "title": "Sessions",
+    "description": "sessions, windows, zoxide: switch, create, rename, kill",
     "category": "Sessions",
     "shortcut": "Ctrl+Shift+O",
-    "action": {
-      "tmux": "run-shell '~/.config/tmux/plugins/tmux-sessionx/scripts/sessionx.sh'"
-    }
+    "aliases": ["sx", "ss"],
+    "action": { "palette": "sessions" }
   },
   {
     "icon": "",
