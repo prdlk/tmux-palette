@@ -6,7 +6,9 @@
     "description": "popup in the pane's directory",
     "category": "Tools",
     "aliases": ["lg"],
-    "action": { "tmux": "display-popup -E -w 90% -h 90% -d '#{pane_current_path}' lazygit" }
+    "action": {
+      "tmux": "display-popup -E -w 90% -h 90% -d '#{pane_current_path}' lazygit"
+    }
   },
   {
     "icon": "",
@@ -31,7 +33,19 @@
     "description": "popup in the pane's directory",
     "category": "Tools",
     "aliases": ["dd"],
-    "action": { "tmux": "display-popup -E -w 90% -h 90% -d '#{pane_current_path}' lazydocker" }
+    "action": {
+      "tmux": "display-popup -E -w 90% -h 90% -d '#{pane_current_path}' lazydocker"
+    }
+  },
+  {
+    "icon": "󰙜",
+    "title": "Portop",
+    "description": "popup in the pane's directory",
+    "category": "Tools",
+    "aliases": ["pp"],
+    "action": {
+      "tmux": "display-popup -E -w 90% -h 90% -d '#{pane_current_path}' portop"
+    }
   },
   {
     "icon": "",
@@ -47,7 +61,9 @@
     "description": "tv channel picker in a new window",
     "category": "Tools",
     "aliases": ["tv"],
-    "action": { "tmux": "new-window -c '#{pane_current_path}' 'exec tv channels'" }
+    "action": {
+      "tmux": "new-window -c '#{pane_current_path}' 'exec tv channels'"
+    }
   },
   {
     "icon": "",
@@ -63,7 +79,9 @@
     "description": "nvim to the left, 60%",
     "category": "Tools",
     "aliases": ["nv"],
-    "action": { "tmux": "split-window -h -b -l 60% -c '#{pane_current_path}' 'exec nvim'" }
+    "action": {
+      "tmux": "split-window -h -b -l 60% -c '#{pane_current_path}' 'exec nvim'"
+    }
   },
   {
     "icon": "",
@@ -79,7 +97,9 @@
     "description": "atuin-pick in a split below",
     "category": "Tools",
     "aliases": ["hist"],
-    "action": { "tmux": "split-window -v -l 25% -c '#{pane_current_path}' 'exec atuin-pick'" }
+    "action": {
+      "tmux": "split-window -v -l 25% -c '#{pane_current_path}' 'exec atuin-pick'"
+    }
   },
   {
     "icon": "",
@@ -96,20 +116,26 @@
     "description": "fuzzy switch, create, rename, kill",
     "category": "Sessions",
     "shortcut": "Ctrl+Shift+O",
-    "action": { "tmux": "run-shell '~/.config/tmux/plugins/tmux-sessionx/scripts/sessionx.sh'" }
+    "action": {
+      "tmux": "run-shell '~/.config/tmux/plugins/tmux-sessionx/scripts/sessionx.sh'"
+    }
   },
   {
     "icon": "",
     "title": "Save Sessions",
     "description": "tmux-resurrect snapshot now",
     "category": "Sessions",
-    "action": { "tmux": "run-shell '~/.config/tmux/plugins/tmux-resurrect/scripts/save.sh'" }
+    "action": {
+      "tmux": "run-shell '~/.config/tmux/plugins/tmux-resurrect/scripts/save.sh'"
+    }
   },
   {
     "icon": "",
     "title": "Restore Sessions",
     "description": "tmux-resurrect: last snapshot",
     "category": "Sessions",
-    "action": { "tmux": "run-shell '~/.config/tmux/plugins/tmux-resurrect/scripts/restore.sh'" }
+    "action": {
+      "tmux": "run-shell '~/.config/tmux/plugins/tmux-resurrect/scripts/restore.sh'"
+    }
   }
 ]
