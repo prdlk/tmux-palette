@@ -92,6 +92,14 @@
     "action": { "palette": "omp" }
   },
   {
+    "icon": "",
+    "title": "Workmux",
+    "description": "worktree agents: status, open, new, merge, remove, dashboard",
+    "category": "Tools",
+    "aliases": ["wm", "worktree"],
+    "action": { "palette": "workmux" }
+  },
+  {
     "icon": "",
     "title": "Shell History (atuin)",
     "description": "atuin-pick in a split below",
