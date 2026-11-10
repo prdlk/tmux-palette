@@ -96,6 +96,7 @@
     "title": "Workmux",
     "description": "worktree agents: status, open, new, merge, remove, dashboard",
     "category": "Tools",
+    "shortcut": "Ctrl+Shift+A",
     "aliases": ["wm", "worktree"],
     "action": { "palette": "workmux" }
   },
